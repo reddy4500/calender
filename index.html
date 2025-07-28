@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Lunar Calendar Widget - Chennai</title>
+    <!-- External CSS Framework -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Your Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-indigo-900 to-slate-900 text-white antialiased">
+
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+        
+        <!-- Header -->
+        <header class="text-center mb-6">
+            <h1 class="text-3xl md:text-4xl font-bold text-yellow-300 tracking-wide">Lunar Calendar</h1>
+            <p class="text-md text-gray-400 mt-1">Chennai, India</p>
+            <!-- Real-time clock will be inserted here by JavaScript -->
+            <div id="live-clock" class="text-lg text-cyan-300 mt-3 h-7"></div>
+        </header>
+
+        <!-- Calendar Grid Container -->
+        <div id="calendar-container" class="flex flex-col items-center gap-6">
+            <!-- Calendars will be dynamically inserted here by JavaScript -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center mt-10 text-gray-500 text-xs">
+            <p>Moon phase calculated for each day.</p>
+        </footer>
+
+    </div>
+
+    <!-- Your Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
